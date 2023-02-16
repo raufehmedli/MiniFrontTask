@@ -1,0 +1,167 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+ 
+ 
+ header{
+   padding: 80px;
+     text-align: center;
+     background: #1abc9c;
+ }
+ header h2{
+ font-size: 40px;
+ color: white;
+ }
+ header p{
+ font-size: 16px;
+ margin: 16px 0px;
+ color: white;
+ }
+ nav{
+     overflow: hidden;
+     background-color: #333;
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+ }
+ .left ul{
+    padding: 0;
+    text-decoration: none;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ }
+ .left ul li{
+    list-style: none;
+     text-align: center;
+    
+ }
+ .left ul li a{
+    text-decoration: none;
+     text-align: center;
+     padding: 14px 20px;
+     color: white;
+ }
+
+ .right ul{
+ text-decoration: none;
+ }
+ .right ul li{
+    list-style: none;
+     text-align: center;
+     padding: 14px 20px;
+ }
+ .right ul li a{
+     padding: 14px 20px;
+   color: white;
+ text-decoration: none;
+ }
+ 
+ 
+ 
+ main{
+    display: flex;
+ 
+ }
+ 
+ .left-side{
+    height: 819px;
+    background-color: #f1f1f1;
+     padding: 20px;
+ }
+ .left-side .about-me .title h3{
+    color: black;
+    margin: 20px 0px;
+ font-size: 24px;
+ } 
+ .left-side .about-me .info{
+    margin: 22px 0px;
+ }
+ .left-side .about-me .info  span{
+    color: black;
+    font-weight: 600;
+ font-size: 13px; 
+ }
+ .left-side .about-me .image{
+    height: 200px;
+    background-color: #aaa;
+     width: 100%;
+     padding: 20px;
+ }
+ .left-side .about-me .text p{
+ margin: 16px 0px;
+ font-size: 16px;
+ color: black;}
+ 
+ .left-side .more .title h4{
+    font-size: 18px;
+    margin: 18px 0px;
+    color: black;
+ }
+ .left-side .more .text p{
+     font-size: 16px;
+    margin: 16px 0px;
+ }
+ .left-side .more ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+ }
+ 
+ .left-side .more ul li{
+ height: 60px;
+ background-color: #aaa;
+     width: 100%;
+     padding: 20px;
+     list-style: none;
+ }
+ .left-side .more ul li a{
+ 
+ text-decoration: none;
+ }
+ 
+ 
+ .right-side{
+        background-color: white;
+     padding: 20px;
+ }
+
+ .right-side .blog .blog-title h3{
+ color: black;
+    margin: 20px 0px;
+ font-size: 24px;
+ 
+ }
+ .right-side .blog .blog-info{
+       margin: 22px 0px;
+ }
+ .right-side .blog .blog-info span{
+  color: black;
+    font-weight: 600;
+ font-size: 13px; 
+ }
+ .right-side .blog .blog-image{
+  background-color: #aaa;
+     width: 100%;
+     padding: 20px;
+     height: 200px;
+ }
+ .right-side .blog .blog-description{
+  margin: 16px 0px;
+  font-size: 16px;
+  color: black;
+ }
+ 
+ footer{
+    padding: 20px;
+     text-align: center;
+     background: #ddd;
+ }
+ footer h4{
+    margin: 19px 0px;
+    color: black;
+    font-size: 24px;
+ }
